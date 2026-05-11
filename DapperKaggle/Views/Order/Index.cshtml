@@ -1,0 +1,166 @@
+﻿@model DapperKaggle.Models.OrderListViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+
+
+<div class="pd-20 card-box mb-30">
+    <h4 class="text-blue h4">Orders List</h4>
+    <p>Search, filter and pagination with Dapper.</p>
+
+    <form method="get" asp-controller="Order" asp-action="Index">
+        <div class="row">
+            <div class="col-md-3">
+                <label>Search</label>
+                <input type="text" name="search" value="@Model.Search" class="form-control" placeholder="Order ID or customer">
+            </div>
+
+            <div class="col-md-3">
+                <label>Country</label>
+                <select name="country" class="form-control">
+                    <option value="">All Countries</option>
+                    @foreach (var item in Model.Countries)
+                    {
+                        <option value="@item" selected="@(Model.Country == item)">
+                            @item
+                        </option>
+                    }
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <label>Status</label>
+                <select name="orderStatus" class="form-control">
+                    <option value="">All Statuses</option>
+                    @foreach (var item in Model.OrderStatuses)
+                    {
+                        <option value="@item" selected="@(Model.OrderStatus == item)">
+                            @item
+                        </option>
+                    }
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <label>Payment</label>
+                <select name="paymentMethod" class="form-control">
+                    <option value="">All Methods</option>
+                    @foreach (var item in Model.PaymentMethods)
+                    {
+                        <option value="@item" selected="@(Model.PaymentMethod == item)">
+                            @item
+                        </option>
+                    }
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <label>&nbsp;</label>
+                <button class="btn btn-primary btn-block">Filter</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="card-box mb-30">
+    <div class="pd-20">
+        <h4 class="text-blue h4">Order Records</h4>
+        <p>Total Records: @Model.TotalCount.ToString("N0")</p>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table hover nowrap">
+            <thead>
+                <tr>
+                    <th>Order Id</th>
+                    <th>Date</th>
+                    <th>Customer</th>
+                    <th>Country</th>
+                    <th>City</th>
+                    <th>Status</th>
+                    <th>Payment</th>
+                    <th>Shipping</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model.Orders)
+                {
+                    <tr>
+                        <td>@item.OrderId</td>
+                        <td>@item.OrderDate?.ToString("yyyy-MM-dd")</td>
+                        <td>@item.CustomerName</td>
+                        <td>@item.Country</td>
+                        <td>@item.City</td>
+                        <td>@item.OrderStatus</td>
+                        <td>@item.PaymentMethod</td>
+                        <td>@item.ShippingStatus</td>
+                        <td>$@item.TotalAmount.ToString("N2")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    @if (Model.TotalPages > 1)
+    {
+        <div class="pd-20">
+            <nav>
+                <ul class="pagination">
+
+                    @if (Model.Page > 1)
+                    {
+                        <li class="page-item">
+                            <a class="page-link"
+                               asp-route-page="@(Model.Page - 1)"
+                               asp-route-search="@Model.Search"
+                               asp-route-country="@Model.Country"
+                               asp-route-orderStatus="@Model.OrderStatus"
+                               asp-route-paymentMethod="@Model.PaymentMethod">
+                                Previous
+                            </a>
+                        </li>
+                    }
+
+                    @{
+                        int startPage = Math.Max(1, Model.Page - 3);
+                        int endPage = Math.Min(Model.TotalPages, Model.Page + 3);
+                    }
+
+                    @for (int i = startPage; i <= endPage; i++)
+                    {
+                        <li class="page-item @(Model.Page == i ? "active" : "")">
+                            <a class="page-link"
+                               asp-route-page="@i"
+                               asp-route-search="@Model.Search"
+                               asp-route-country="@Model.Country"
+                               asp-route-orderStatus="@Model.OrderStatus"
+                               asp-route-paymentMethod="@Model.PaymentMethod">
+                                @i
+                            </a>
+                        </li>
+                    }
+
+                    @if (Model.Page < Model.TotalPages)
+                    {
+                        <li class="page-item">
+                            <a class="page-link"
+                               asp-route-page="@(Model.Page + 1)"
+                               asp-route-search="@Model.Search"
+                               asp-route-country="@Model.Country"
+                               asp-route-orderStatus="@Model.OrderStatus"
+                               asp-route-paymentMethod="@Model.PaymentMethod">
+                                Next
+                            </a>
+                        </li>
+                    }
+
+                </ul>
+            </nav>
+        </div>
+    }
+</div>

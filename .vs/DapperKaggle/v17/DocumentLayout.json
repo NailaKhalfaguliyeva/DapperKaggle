@@ -1,0 +1,589 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\views\\shared\\_dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\views\\shared\\_dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\models\\orderlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\models\\orderlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\models\\productlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\models\\productlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\dtos\\productdtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\dtos\\productdtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\dtos\\productdtos\\resultproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\dtos\\productdtos\\resultproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\dtos\\productdtos\\getproductbyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\dtos\\productdtos\\getproductbyiddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\dtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\dtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\dtos\\dashboarddtos\\dashboardstatisticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\dtos\\dashboarddtos\\dashboardstatisticsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\dtos\\orderdtos\\orderlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\dtos\\orderdtos\\orderlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\dtos\\dashboarddtos\\chartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\dtos\\dashboarddtos\\chartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\context\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\context\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\services\\orderservices\\orderqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\services\\orderservices\\orderqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\services\\orderservices\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\services\\orderservices\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\services\\productservices\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\services\\productservices\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\services\\productservices\\productqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\services\\productservices\\productqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\services\\productservices\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\services\\productservices\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\services\\orderservices\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\services\\orderservices\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\services\\dashboard\\dashboardtopqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\services\\dashboard\\dashboardtopqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\services\\dashboard\\dashboardstatsqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\services\\dashboard\\dashboardstatsqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\services\\dashboard\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\services\\dashboard\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\services\\dashboard\\dashboardchartqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\services\\dashboard\\dashboardchartqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\services\\dashboard\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\services\\dashboard\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|c:\\users\\asus\\source\\repos\\dapperkaggle\\dapperkaggle\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FE19D0-A99E-46DE-8722-A1D98F87C854}|DapperKaggle\\DapperKaggle.csproj|solutionrelative:dapperkaggle\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 34,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DapperKaggle\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T05:35:07.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DapperContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Context\\DapperContext.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Context\\DapperContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Context\\DapperContext.cs",
+              "RelativeToolTip": "DapperKaggle\\Context\\DapperContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T05:35:03.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\ProductServices\\IProductService.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Services\\ProductServices\\IProductService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\ProductServices\\IProductService.cs",
+              "RelativeToolTip": "DapperKaggle\\Services\\ProductServices\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T17:01:50.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChartDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Dtos\\DashboardDtos\\ChartDto.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Dtos\\DashboardDtos\\ChartDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Dtos\\DashboardDtos\\ChartDto.cs",
+              "RelativeToolTip": "DapperKaggle\\Dtos\\DashboardDtos\\ChartDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T16:32:17.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DashboardStatisticsDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Dtos\\DashboardDtos\\DashboardStatisticsDto.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Dtos\\DashboardDtos\\DashboardStatisticsDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Dtos\\DashboardDtos\\DashboardStatisticsDto.cs",
+              "RelativeToolTip": "DapperKaggle\\Dtos\\DashboardDtos\\DashboardStatisticsDto.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T16:32:10.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DashboardChartQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\Dashboard\\DashboardChartQueryService.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Services\\Dashboard\\DashboardChartQueryService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\Dashboard\\DashboardChartQueryService.cs",
+              "RelativeToolTip": "DapperKaggle\\Services\\Dashboard\\DashboardChartQueryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T16:24:35.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DashboardStatsQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\Dashboard\\DashboardStatsQueryService.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Services\\Dashboard\\DashboardStatsQueryService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\Dashboard\\DashboardStatsQueryService.cs",
+              "RelativeToolTip": "DapperKaggle\\Services\\Dashboard\\DashboardStatsQueryService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAGsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T16:23:00.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DashboardTopQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\Dashboard\\DashboardTopQueryService.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Services\\Dashboard\\DashboardTopQueryService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\Dashboard\\DashboardTopQueryService.cs",
+              "RelativeToolTip": "DapperKaggle\\Services\\Dashboard\\DashboardTopQueryService.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAswGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T16:18:12.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Models\\ProductListViewModel.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Models\\ProductListViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Models\\ProductListViewModel.cs",
+              "RelativeToolTip": "DapperKaggle\\Models\\ProductListViewModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T15:32:47.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Dtos\\ProductDtos\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Dtos\\ProductDtos\\UpdateProductDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Dtos\\ProductDtos\\UpdateProductDto.cs",
+              "RelativeToolTip": "DapperKaggle\\Dtos\\ProductDtos\\UpdateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T15:24:36.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ResultProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Dtos\\ProductDtos\\ResultProductDto.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Dtos\\ProductDtos\\ResultProductDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Dtos\\ProductDtos\\ResultProductDto.cs",
+              "RelativeToolTip": "DapperKaggle\\Dtos\\ProductDtos\\ResultProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T15:24:34.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetProductByIdDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Dtos\\ProductDtos\\GetProductByIdDto.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Dtos\\ProductDtos\\GetProductByIdDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Dtos\\ProductDtos\\GetProductByIdDto.cs",
+              "RelativeToolTip": "DapperKaggle\\Dtos\\ProductDtos\\GetProductByIdDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T15:24:23.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Dtos\\ProductDtos\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Dtos\\ProductDtos\\CreateProductDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Dtos\\ProductDtos\\CreateProductDto.cs",
+              "RelativeToolTip": "DapperKaggle\\Dtos\\ProductDtos\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T15:24:18.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\ProductServices\\ProductService.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Services\\ProductServices\\ProductService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\ProductServices\\ProductService.cs",
+              "RelativeToolTip": "DapperKaggle\\Services\\ProductServices\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T15:02:37.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\ProductServices\\ProductQueryService.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Services\\ProductServices\\ProductQueryService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\ProductServices\\ProductQueryService.cs",
+              "RelativeToolTip": "DapperKaggle\\Services\\ProductServices\\ProductQueryService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T15:02:11.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\OrderServices\\OrderService.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Services\\OrderServices\\OrderService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\OrderServices\\OrderService.cs",
+              "RelativeToolTip": "DapperKaggle\\Services\\OrderServices\\OrderService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T14:07:12.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\OrderServices\\IOrderService.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Services\\OrderServices\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\OrderServices\\IOrderService.cs",
+              "RelativeToolTip": "DapperKaggle\\Services\\OrderServices\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T14:06:54.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderListDto.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Dtos\\OrderDtos\\OrderListDto.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Dtos\\OrderDtos\\OrderListDto.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Dtos\\OrderDtos\\OrderListDto.cs",
+              "RelativeToolTip": "DapperKaggle\\Dtos\\OrderDtos\\OrderListDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T14:06:09.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Models\\OrderListViewModel.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Models\\OrderListViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Models\\OrderListViewModel.cs",
+              "RelativeToolTip": "DapperKaggle\\Models\\OrderListViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T14:06:01.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\OrderServices\\OrderQueryService.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Services\\OrderServices\\OrderQueryService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\OrderServices\\OrderQueryService.cs",
+              "RelativeToolTip": "DapperKaggle\\Services\\OrderServices\\OrderQueryService.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAswGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T14:03:50.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Models\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "DapperKaggle\\Models\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:55:13.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IDashboardService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\Dashboard\\IDashboardService.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Services\\Dashboard\\IDashboardService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\Dashboard\\IDashboardService.cs",
+              "RelativeToolTip": "DapperKaggle\\Services\\Dashboard\\IDashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:54:59.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\Dashboard\\DashboardService.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Services\\Dashboard\\DashboardService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Services\\Dashboard\\DashboardService.cs",
+              "RelativeToolTip": "DapperKaggle\\Services\\Dashboard\\DashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:54:47.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_DashboardLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Views\\Shared\\_DashboardLayout.cshtml",
+              "RelativeDocumentMoniker": "DapperKaggle\\Views\\Shared\\_DashboardLayout.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Views\\Shared\\_DashboardLayout.cshtml",
+              "RelativeToolTip": "DapperKaggle\\Views\\Shared\\_DashboardLayout.cshtml",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAGoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T13:31:18.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeDocumentMoniker": "DapperKaggle\\Views\\Product\\UpdateProduct.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeToolTip": "DapperKaggle\\Views\\Product\\UpdateProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T13:30:41.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Views\\Product\\CreateProduct.cshtml",
+              "RelativeDocumentMoniker": "DapperKaggle\\Views\\Product\\CreateProduct.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Views\\Product\\CreateProduct.cshtml",
+              "RelativeToolTip": "DapperKaggle\\Views\\Product\\CreateProduct.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T13:29:24.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "DapperKaggle\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "DapperKaggle\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T13:25:45.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "DapperKaggle\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "DapperKaggle\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T13:24:29.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "DapperKaggle\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "DapperKaggle\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAL4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T13:22:43.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "DapperKaggle\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:19:59.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "DapperKaggle\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:19:12.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "DapperKaggle\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:18:47.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Program.cs",
+              "RelativeDocumentMoniker": "DapperKaggle\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DapperKaggle\\DapperKaggle\\Program.cs",
+              "RelativeToolTip": "DapperKaggle\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:17:57.294Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+﻿@model DapperKaggle.Dtos.DashboardDtos.DashboardStatisticsDto
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<div class="card-box pd-20 height-100-p mb-30">
+    <h4 class="font-20 weight-500 mb-10">
+        Dapper E-Commerce Dashboard
+    </h4>
+    <p class="font-16">
+        Large-scale e-commerce dataset analytics with ASP.NET Core MVC, Dapper and SQL Server.
+    </p>
+</div>
+
+<div class="row">
+    <div class="col-xl-3 mb-30">
+        <div class="card-box pd-20">
+            <h4>@Model.TotalCustomers.ToString("N0")</h4>
+            <p>Total Customers</p>
+        </div>
+    </div>
+
+    <div class="col-xl-3 mb-30">
+        <div class="card-box pd-20">
+            <h4>@Model.TotalProducts.ToString("N0")</h4>
+            <p>Total Products</p>
+        </div>
+    </div>
+
+    <div class="col-xl-3 mb-30">
+        <div class="card-box pd-20">
+            <h4>@Model.TotalOrders.ToString("N0")</h4>
+            <p>Total Orders</p>
+        </div>
+    </div>
+
+    <div class="col-xl-3 mb-30">
+        <div class="card-box pd-20">
+            <h4>@Model.TotalReviews.ToString("N0")</h4>
+            <p>Total Reviews</p>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-3 mb-30">
+        <div class="card-box pd-20">
+            <h4>$@Model.TotalRevenue.ToString("N2")</h4>
+            <p>Total Revenue</p>
+        </div>
+    </div>
+
+    <div class="col-xl-3 mb-30">
+        <div class="card-box pd-20">
+            <h4>$@Model.TotalProfit.ToString("N2")</h4>
+            <p>Total Profit</p>
+        </div>
+    </div>
+
+    <div class="col-xl-3 mb-30">
+        <div class="card-box pd-20">
+            <h4>$@Model.AverageOrderAmount.ToString("N2")</h4>
+            <p>Average Order Amount</p>
+        </div>
+    </div>
+
+    <div class="col-xl-3 mb-30">
+        <div class="card-box pd-20">
+            <h4>@Model.AverageRating.ToString("N2")</h4>
+            <p>Average Rating</p>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-4 mb-30">
+        <div class="card-box pd-20">
+            <h5>Top Country</h5>
+            <h4 class="text-blue">@Model.TopCountry</h4>
+        </div>
+    </div>
+
+    <div class="col-xl-4 mb-30">
+        <div class="card-box pd-20">
+            <h5>Top City</h5>
+            <h4 class="text-blue">@Model.TopCity</h4>
+        </div>
+    </div>
+
+    <div class="col-xl-4 mb-30">
+        <div class="card-box pd-20">
+            <h5>Top Payment Method</h5>
+            <h4 class="text-blue">@Model.TopPaymentMethod</h4>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-6 mb-30">
+        <div class="card-box pd-20">
+            <h5>Top Product</h5>
+            <h4 class="text-blue">@Model.TopProduct</h4>
+        </div>
+    </div>
+
+    <div class="col-xl-6 mb-30">
+        <div class="card-box pd-20">
+            <h5>Top Category</h5>
+            <h4 class="text-blue">@Model.TopCategory</h4>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-6 mb-30">
+        <div class="card-box pd-20">
+            <h5>Most Expensive Product</h5>
+            <h4 class="text-blue">@Model.MostExpensiveProduct</h4>
+        </div>
+    </div>
+
+    <div class="col-xl-6 mb-30">
+        <div class="card-box pd-20">
+            <h5>Cheapest Product</h5>
+            <h4 class="text-blue">@Model.CheapestProduct</h4>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-6 mb-30">
+        <div class="card-box pd-20">
+            <h4 class="h4 mb-20">Orders by Country</h4>
+            <div style="height:320px;">
+                <canvas id="ordersByCountryChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-6 mb-30">
+        <div class="card-box pd-20">
+            <h4 class="h4 mb-20">Revenue by Country</h4>
+            <div style="height:320px;">
+                <canvas id="revenueByCountryChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-6 mb-30">
+        <div class="card-box pd-20">
+            <h4 class="h4 mb-20">Orders by Status</h4>
+            <div style="height:320px;">
+                <canvas id="ordersByStatusChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-6 mb-30">
+        <div class="card-box pd-20">
+            <h4 class="h4 mb-20">Products by Category</h4>
+            <div style="height:320px;">
+                <canvas id="productsByCategoryChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        function createChart(canvasId, data, type, label) {
+            const labels = data.map(x => x.name);
+            const values = data.map(x => x.value);
+
+            new Chart(document.getElementById(canvasId), {
+                type: type,
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: label,
+                        data: values
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: type === "bar" ? {
+                        y: {
+                            beginAtZero: true
+                        }
+                    } : {}
+                }
+            });
+        }
+
+        createChart("ordersByCountryChart", @Html.Raw(Json.Serialize(Model.OrdersByCountry)), "bar", "Orders");
+        createChart("revenueByCountryChart", @Html.Raw(Json.Serialize(Model.RevenueByCountry)), "bar", "Revenue");
+        createChart("ordersByStatusChart", @Html.Raw(Json.Serialize(Model.OrdersByStatus)), "doughnut", "Orders");
+        createChart("productsByCategoryChart", @Html.Raw(Json.Serialize(Model.ProductsByCategory)), "pie", "Products");
+    </script>
+}

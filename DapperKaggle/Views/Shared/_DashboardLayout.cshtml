@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>@ViewData["Title"] - Dapper Kaggle Dashboard</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="~/deskapp2-master/vendors/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/deskapp2-master/vendors/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/deskapp2-master/vendors/images/favicon-16x16.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="~/deskapp2-master/vendors/styles/core.css">
+    <link rel="stylesheet" type="text/css" href="~/deskapp2-master/vendors/styles/icon-font.min.css">
+    <link rel="stylesheet" type="text/css" href="~/deskapp2-master/vendors/styles/style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="header-left">
+            <div class="menu-icon dw dw-menu"></div>
+            <div class="header-search">
+                <form>
+                    <div class="form-group mb-0">
+                        <i class="dw dw-search2 search-icon"></i>
+                        <input type="text" class="form-control search-input" placeholder="Search Here">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="header-right">
+            <div class="user-info-dropdown">
+                <div class="dropdown">
+                    <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                        <span class="user-icon">
+                            <img src="~/deskapp2-master/vendors/images/photo1.jpg" alt="">
+                        </span>
+                        <span class="user-name">Admin User</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
+                        <a class="dropdown-item" asp-controller="Dashboard" asp-action="Index">
+                            <i class="dw dw-house-1"></i> Dashboard
+                        </a>
+                        <a class="dropdown-item" asp-controller="Order" asp-action="Index">
+                            <i class="dw dw-list3"></i> Orders
+                        </a>
+                        <a class="dropdown-item" asp-controller="Product" asp-action="Index">
+                            <i class="dw dw-box"></i> Products
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="left-side-bar">
+        <div class="brand-logo">
+            <a asp-controller="Dashboard" asp-action="Index">
+                <img src="~/deskapp2-master/vendors/images/deskapp-logo.svg" alt="" class="dark-logo">
+                <img src="~/deskapp2-master/vendors/images/deskapp-logo-white.svg" alt="" class="light-logo">
+            </a>
+            <div class="close-sidebar" data-toggle="left-sidebar-close">
+                <i class="ion-close-round"></i>
+            </div>
+        </div>
+
+        <div class="menu-block customscroll">
+            <div class="sidebar-menu">
+                <ul id="accordion-menu">
+
+                    <li>
+                        <a asp-controller="Dashboard" asp-action="Index" class="dropdown-toggle no-arrow">
+                            <span class="micon dw dw-house-1"></span>
+                            <span class="mtext">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a asp-controller="Order" asp-action="Index" class="dropdown-toggle no-arrow">
+                            <span class="micon dw dw-list3"></span>
+                            <span class="mtext">Orders List</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a asp-controller="Product" asp-action="Index" class="dropdown-toggle no-arrow">
+                            <span class="micon dw dw-box"></span>
+                            <span class="mtext">Products</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-menu-overlay"></div>
+
+    <div class="main-container">
+        <div class="pd-ltr-20">
+            @RenderBody()
+
+            <div class="footer-wrap pd-20 mb-20 card-box">
+                Dapper Kaggle Dashboard - ASP.NET Core MVC + Dapper
+            </div>
+        </div>
+    </div>
+
+    <script src="~/deskapp2-master/vendors/scripts/core.js"></script>
+    <script src="~/deskapp2-master/vendors/scripts/script.min.js"></script>
+    <script src="~/deskapp2-master/vendors/scripts/process.js"></script>
+    <script src="~/deskapp2-master/vendors/scripts/layout-settings.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
